@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
     <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
 
 
   </head>
@@ -32,38 +35,123 @@
         <h1 class="title">Olá,<br> eu sou Bruno R Borges</h1>
   
         <div class="information">
-              <p class="job">Analista financeiro (um junior em tecnologia)</p>
+              <p class="job">Analista financeiro (junior em tecnologia)</p>
               <p class="location">São Luís-MA</p>
-              <p class="phone">(98) 9 9223-6330</p>
-              <p class="email">brunojr2006@gmail.com</p>
+              <p class="phone">
+                <a href="tel:(98) 9 9223-6330 ">(98) 9 9223-6330</a>
+              </p>
+              <p class="email">
+               <a href="mailto:brunojr2006@gmail.com">brunojr2006@gmail.com</a>
+              </p>
         </div>
       </header>
-      <section class="acordeon open">
+      <section class="acordeon">
         <button class="trigger" type="button">
-          Idiomas
+          <h2>Skills</h2>
+        </button>
+        <div class="content">
+          <div class="skills">
+            <section class="tools">
+              <h3>
+                Ferramentas
+              </h3>
+              <ul>
+                <li>
+                  <img src="data/imgs/html.png" alt="html" title="html">
+                </li>
+                <li>
+                  <img src="assets/img/icons/tools/git.svg" alt="github" title="github">
+                </li>
+                <li>
+                  <img src="assets/img/icons/tools/nodejs.svg" alt="nodejs" title="nodejs">
+                </li>
+                <li>
+                  <img src="data/imgs/css.png" alt="css" title="css">
+                </li>
+                <li>
+                  <img src="data/imgs/python.png" alt="python" title="python">
+                </li>
+                <li>
+                  <img src="data/imgs/angular.png" alt="angular" title="angular">
+                </li>
+                <li>
+                  <img src="data/imgs/vscode.png" alt="vscode" title="vscode">
+                </li>
+              </ul>
+            </section>
+            <section class="personal">
+              <h3>
+                Pessoal
+              </h3>
+              <ul>
+                <li>Liderança</li>
+                <li>Facilidade de comunicação</li>          
+                <li>Organização</li>
+                <li>Trabalho em equipe</li>
+                <li>Metodologia ágil</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button">
+          <h2>Idiomas</h2>
         </button>
 
         <div class="content">
           <ul class="languages">
-            <li>Português</li>
-            <li>Ingles</li>
-            <li>Italiano</li>
-            <li>Espanhol</li>
+            <li>Português (fluente)</li>
+            <li>Ingles (intermediário)</li>
+            <li>Espanhol (básico)</li>
           </ul>
         </div>
       </section>
-
-      <section class="acordeon open">
+      <section class="acordeon">
         <button class="trigger" type="button">
-        Idiomas
+        <h2>Portfólio</h2>
         </button>
 
         <div class="content">
-          <ul class="languages">
-            <li>Português</li>
-            <li>Ingles</li>
-            <li>Italiano</li>
-            <li>Espanhol</li>
+          <ul class="portfolio">
+            <li>
+              <h3 class="title github">Clone page Youtube simples</h3>
+              <a href="https://github.com/stayus/clone-page-Youtube-simples.git" target="_blank">github.com/stayus/clone-page-Youtube-simples</a>
+            </li>
+            <li>
+              <h3 class="title github">Api Pokemon Dio em JS</h3>
+              <a href="https://github.com/stayus/Api-Pokemon-Dio.git" target="_blank">github.com/stayus/Api-Pokemon-Dio.git</a>
+            </li>
+            <li>
+              <h3 class="title github">
+                js-gamedino-chrome</h3>
+              <a href="https://github.com/stayus/js-gamedino-chrome.git" target="_blank">github.com/stayus/js-gamedino-chrome.git</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button">
+        <h2>Experiência Profissional</h2>
+        </button>
+
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h3 class="title">Analista Financeiro / Grupo Mateus (atual)</h3>
+              <span class="period">Jan 2019 - Current</span>
+              <p>
+                Trabalho a 3 anos com conciliaçãp bancaria no grupo mateus supermercados.
+              </p>
+            </li>
+            <li>
+              <h3 class="title">Assistênte de RH / Grupo Mateus</h3>
+              <span class="period">Nov 2017 - Dez 2018</span>
+              <p>
+                Cuidado de triagem, oraganização de curriculos para buscar perfis que se encaixam no grupo.
+                Informando e apresentado a documentação para os novos contratados.
+              </p>
+            </li>
           </ul>
         </div>
       </section>
